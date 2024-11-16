@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/Primexz/bitcoind-exporter/config"
-	prometheus "github.com/Primexz/bitcoind-exporter/prometheus/metrics"
+	"github.com/iandennismiller/bitcoind-exporter/config"
+	prometheus "github.com/iandennismiller/bitcoind-exporter/prometheus/metrics"
 	goprom "github.com/prometheus/client_golang/prometheus"
 
-	"github.com/Primexz/bitcoind-exporter/util"
+	"github.com/iandennismiller/bitcoind-exporter/util"
 	"github.com/sirupsen/logrus"
 )
 

@@ -2,8 +2,8 @@
 
 **Prometheus metrics for a bitcoin node made simple**
 
-![Buid](https://img.shields.io/github/actions/workflow/status/primexz/bitcoind-exporter/release.yml)
-![License](https://img.shields.io/github/license/primexz/krakendca)
+![Buid](https://img.shields.io/github/actions/workflow/status/iandennismiller/bitcoind-exporter/release.yml)
+![License](https://img.shields.io/github/license/iandennismiller/krakendca)
 
 ## 🔍 About the project
 
@@ -39,7 +39,7 @@ docker run -d --name bitcoind_exporter \
   -e RPC_USER=mempool \
   -e RPC_PASS=mempool \
   -e ZMQ_ADDRESS=127.0.0.1:28333 \
-   ghcr.io/primexz/bitcoind-exporter:latest
+   ghcr.io/iandennismiller/bitcoind-exporter:latest
 ```
 
 ### 🚀 Docker-Compose
@@ -52,7 +52,7 @@ vim docker-compose.yml
 version: "3.8"
 services:
   bitcoind_exporter:
-    image: ghcr.io/primexz/bitcoind-exporter:latest
+    image: ghcr.io/iandennismiller/bitcoind-exporter:latest
     environment:
       - RPC_ADDRESS=http://127.0.0.1:8332
       - RPC_USER=mempool

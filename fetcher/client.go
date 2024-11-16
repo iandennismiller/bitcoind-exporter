@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Primexz/bitcoind-exporter/config"
+	"github.com/iandennismiller/bitcoind-exporter/config"
 	"github.com/ybbus/jsonrpc/v3"
 )
 
